@@ -1,0 +1,66 @@
+/*http://jsfiddle.net/2vLjU/1/*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+#header_wrapper {
+    font-family: "Times New Roman", Arial, Helvetica;
+    width: 100%;
+}
+
+#header_wrapper nav {
+    position: relative;
+    background-color: #5C6BC0;
+    display: block;
+    width: 100%;
+}
+
+nav #nav_links {
+    text-align: center;
+    font-family: Georgia, Times, sans-serif;
+    font-size: 125%;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 0.5em 2em;
+    border-bottom: #5C6BC0 solid 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom-color: #E53935;
+    transition: 0.3s;
+}
+
+nav a:visted {
+    color: #EEEEEE;
+}
+
+#content_wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: block;
+    /* font-family: Georgia, Times, serif; */
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    padding: 1em;
+}
+
+main {
+    padding: 10px;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    vertical-align: bottom;
+}
